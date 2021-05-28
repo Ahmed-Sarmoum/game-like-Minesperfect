@@ -1,0 +1,27 @@
+/* (A) MINESWEEPER WRAPPER */
+#tp_game {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px 0 50px;
+  border-radius: 0 100px 0 100px;
+  border: 50px solid rgb(10, 141, 218);
+}
+#state_game {
+  margin: 30px 50px 10px 50px;
+  color: #fff;
+}
+/* (B) MINESWEEPER CELLS */
+#tp_game .cell {
+  box-sizing: border-box;
+  background: #eee;
+  border: 2px dashed #ccc;
+  font-size: 40px;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+}
+#tp_game .cell.reveal { background: rgba(153, 255, 0, 0.774); }
+#tp_game .cell.boom { background: #f00; }
+
+/* (X) DOES NOT MATTER */
+body, html { font-family: arial, sans-serif;background-color: black;}
